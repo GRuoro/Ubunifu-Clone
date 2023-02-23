@@ -71,7 +71,7 @@
     background-color: #232323;
     padding: 20px 0 20px 10px;
     display: none;
-    width: 13%;
+    width: 15%;
 }
 
 .about:hover .items,
@@ -81,10 +81,10 @@
 }
 
 .items p {
-    width: 90%;
-    font-size: 11px;
+    width: 100%;
+    font-size: 10px;
     line-height: 25px;
-    margin-left: 5%;
+    margin-left: 2.5%;
 }
 
 .items a {
@@ -291,8 +291,10 @@
     background-image: url(/Images/belongleft.jpeg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .right {
     justify-content: right;
     height: 100%;
